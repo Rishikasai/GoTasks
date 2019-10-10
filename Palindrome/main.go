@@ -6,7 +6,10 @@ import (
 )
 
 func main() {
-	a := palindrome("maNdam")
+	var b string
+	fmt.Println("Enter a string")
+	fmt.Scan(&b)
+	a := palindrome(b)
 	if a == "Y" {
 		fmt.Println("is a palindrome")
 	}
